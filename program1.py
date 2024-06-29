@@ -2,5 +2,7 @@
 def greet(name):
     return f"Hello, {name}! How are you today?"
 
-print(greet("Alice"))
+def farewell(name):
+    return
+
 
