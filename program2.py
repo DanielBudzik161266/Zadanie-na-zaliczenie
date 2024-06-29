@@ -8,6 +8,14 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero"
+
 print(add(3, 4))
 print(subtract(7, 2))
 print(multiply(3, 5))
+print(divide(10, 2))
+print(divide(10, 0))
