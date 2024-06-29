@@ -14,8 +14,13 @@ def divide(a, b):
     else:
         return "Cannot divide by zero"
 
+def power(a, b):
+    return a ** b
+
 print(add(3, 4))
 print(subtract(7, 2))
 print(multiply(3, 5))
 print(divide(10, 2))
 print(divide(10, 0))
+print(power(2, 3))
+
